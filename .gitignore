@@ -1,0 +1,20 @@
+# Credenciales y entornos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+# Dependencias y artefactos
+node_modules/
+dist/
+build/
+coverage/
+.next/
+*.log
+# Documentación local confidencial
+private/
+confidencial/
+onedrive-sync/
+.DS_Store
